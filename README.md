@@ -9,7 +9,7 @@ Monthly Projection:= month-revenue/30||month-daily-revenue*365
 <br />
 Yearly Projection:= year-revenue/30||average-daily-revenue\*365
 <br />
-AAGR := If we have previuos data yearly we can calculate growth year
+AAGR := If we have previuos yearly data we can calculate the growth rate/year
 <br />
 ---could add more---
 <br />
