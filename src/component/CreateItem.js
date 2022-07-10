@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import AttachMoneyIcon from "@mui/icons-material/AttachMoney";
+import { firestore } from "../firebase";
 function CreateItem() {
   const [title, setTitle] = useState();
   const [price, setPrice] = useState();
@@ -10,6 +11,12 @@ function CreateItem() {
     e.preventDefault();
     console.log(`title ${title}`);
     console.log(`price ${price}`);
+    firestore.collection("items").add({
+      title,
+      price,
+      img,
+      createdAt: new Date(),
+    });
   }
   return (
     <div className="create-post">
