@@ -12,6 +12,9 @@ function Navbar() {
         <li>
           <Link to="/create-item">Add Item</Link>
         </li>
+        <li>
+          <Link to="/dashboard">Dashboard</Link>
+        </li>
       </ul>
     </div>
   );

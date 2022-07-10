@@ -1,5 +1,5 @@
 import { Routes, Route } from "react-router-dom";
-import { Home, CreateItem, Navbar } from "./index";
+import { Dashboard, Home, CreateItem, Navbar } from "./index";
 function App() {
   return (
     <div className="container">
@@ -7,6 +7,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/create-item" element={<CreateItem />} />
+        <Route path="/dashboard" element={<Dashboard />} />
       </Routes>
     </div>
   );

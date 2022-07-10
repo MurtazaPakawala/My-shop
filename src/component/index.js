@@ -1,5 +1,6 @@
 import Home from "./Home";
 import CreateItem from "./CreateItem";
 import Navbar from "./Navbar";
+import Dashboard from "./Dashboard";
 
-export { Navbar, Home, CreateItem };
+export { Dashboard, Navbar, Home, CreateItem };
