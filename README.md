@@ -2,12 +2,17 @@
 
 The project tends to solve the problem for small shopkeepers with just access to internet. The project helps them to add products on cloud storage detail about the buisness and which they can access from anywhere. The project calculated Quantity sold, Total Revenue, Monthly Projection, Yearly Projection, AAGR and other insight which they would not have otherwise
 Small shop keepers in developing countries still use pen and notebook to note the items they sell everyday and they calculate the total before going home each day....my project focuses on them
+<br />
 Total Revenue:= qty*price(till date)
+<br />
 Monthly Projection:= month-revenue/30||month-daily-revenue*365
+<br />
 Yearly Projection:= year-revenue/30||average-daily-revenue\*365
+<br />
 AAGR := If we have previuos data yearly we can calculate growth year
-
+<br />
 ---could add more---
+<br />
 the web-app is for shop-keeper with monthly revenue less than $2000-$3000
 
 # a short video
