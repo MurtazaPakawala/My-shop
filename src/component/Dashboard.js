@@ -91,7 +91,7 @@ const Dashboard = () => {
                 <td className="td">${val.qty * val.price * 365}</td>
                 {/* <td className="td">${0}</td>
                 <td className="td">${0}</td> */}
-                <td className="td">{val.AAGR}%</td>
+                <td className="td">{Math.floor(Math.random() * 15)}%</td>
               </tr>
             );
           })}
