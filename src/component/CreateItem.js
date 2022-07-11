@@ -16,6 +16,7 @@ function CreateItem() {
       price,
       img,
       createdAt: new Date(),
+      qty: Math.floor(Math.random() * 15),
     });
   }
   return (

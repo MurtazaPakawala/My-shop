@@ -3,8 +3,10 @@ import { useState, useEffect } from "react";
 import { firestore } from "../firebase";
 import { Link } from "react-router-dom";
 import AttachMoneyIcon from "@mui/icons-material/AttachMoney";
+
 function Home() {
   const [items, setItems] = useState([]);
+
   useEffect(() => {
     firestore
       .collection("items")
@@ -21,6 +23,7 @@ function Home() {
         setItems(items);
       });
   }, []);
+
   return (
     <div className="home">
       <h1>Items Display</h1>
